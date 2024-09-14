@@ -226,8 +226,8 @@ if __name__=='__main__':
     args = parser.parse_args()
     df=pd.read_excel(args.input)
     
-    df_bai=pd.read_excel('D:\\奇安信\\NGSOC\\优化表\\安全治理(天幕)全局管控白名单-2024-06-28.xlsx')
-    df_hei=pd.read_excel('D:\\奇安信\\NGSOC\\优化表\\安全治理(天幕)全局管控黑名单-2024-06-28.xlsx')
+    df_bai=pd.read_excel('')
+    df_hei=pd.read_excel('')
     df_hei=df_hei[(df_hei['状态']=='生效')]
     df_hei.reset_index(drop=True, inplace=True)
     df.dropna(subset=['攻击者'], inplace=True)
