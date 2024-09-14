@@ -49,19 +49,9 @@ class ThreatType:
 class ThreatBookApi:
     def __init__(self):
         # 输入key
-        self.apikey = 'c7ea95dfe6b94943bd0eb0d8ace696d9213457b03ef1408aa738629f9dd09812'
+        self.apikey = ''
         # 定义key列表
-        self.apikey_box = ['2a5abf1f0b5440108f2f4a21a2ca89babadd15f7cebe415bb768bc79c2570938',
-                           '8306d80c2eb6466ab8d3c2470212a8ac91513bb4e27b49cc9de8b98bd9de6285',
-                          '4e4826f0f987484880ff4900c8bc965fdf3c1f64eb794bcebc3585b795dd1186',
-                          'c65cbe60ae524abf83bea97083dbcedf45dda7f2bf7e44c099eb285dda179d4b',
-                           '0a4c221acd1d45e491c110c08d906f5d428e6f1b7ec448f6bdc7b71dcc8555e1',
-                           '5c043f7caea94b1da45e693e255447cda486ba405c87466faf20e24c51b519b3',
-                          'b9047511d7d643b696588b52de44411f7697c6daf55543e5b06af82efcb9988f',
-                          '644e33bfc7014628972e51db627a8477d3682e2898e9443ca5d1ec0d3ed926b7',
-                          '33bbe74b7b3c4e219080a9a14cad25f5ae2deb2480704b89a837387c5e3531d4',
-                          '122ef2be4f3a4b4a9323f0eb59190a274601f48fc63d4fc0a168770b46ab2f21',
-                          '5ea62b3e0cd44fe39edc1c06b68827015ced38e408c94ecdaf76438bb69b8949']
+        self.apikey_box = ['']
  
     # 状态码判断
     def get_code_query(self, text, re_code):
